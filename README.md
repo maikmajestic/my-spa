@@ -16,6 +16,11 @@ Manages user data locally.
 Supports operations such as creating, editing, and deleting user profiles.
 Validation ensures data integrity before submission.
 
+Multilanguage Support:
+The application supports multiple languages (English and Spanish) using a language switcher component. Users can select their preferred language, and the interface updates accordingly.
+
+
+
 ## Installation
 
 Clone the repository:

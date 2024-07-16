@@ -70,11 +70,11 @@ const CreateUserModal: React.FC<ModalProps & { initialUser?: User }> = ({
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
-    const userData = { ...user, id: getNewUserId() }; // Actualiza el ID aquí
+    const userData = { ...user, id: getNewUserId() };
     const createUserResponse = await createUser(userData);
 
     if (createUserResponse === "OK") {
-      setUser(newUserTemplate); // Resetear el usuario después de crear
+      setUser(newUserTemplate);
       dispatch(addUser(userData));
       onClose();
     }
