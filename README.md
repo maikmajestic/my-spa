@@ -21,7 +21,7 @@ Validation ensures data integrity before submission.
 Clone the repository:
 
 git clone https://github.com/maikmajestic/my-spa.git
-cd repository-name
+cd my-spa
 
 Install dependencies:
 npm run install
