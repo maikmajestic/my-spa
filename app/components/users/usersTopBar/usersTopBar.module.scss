@@ -1,0 +1,55 @@
+.topBarWrapper {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  margin: 1em 0;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.searchContainer {
+  width: 80%;
+  padding: 5px;
+}
+
+.searchInput {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.addUserBtn {
+  background-color: #49743D;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.addUserBtn:hover {
+  background-color: #45a049;
+}
+
+@media (max-width: 768px) {
+  .searchContainer {
+    width: 67%;
+  }
+  .addUserBtn {
+    font-size: 12px;
+    padding: 10px 5px;
+  }
+}

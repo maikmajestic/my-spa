@@ -1,0 +1,61 @@
+.usersWrapper {
+  padding: 0 2em;
+}
+
+.usersGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 10px;
+}
+
+.userCardWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.btnSubmit {
+  background-color: #2196F3;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.btnSubmit:hover {
+  background-color: #0b7dda;
+}
+
+.btnSubmit:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+@media (max-width: 576px) {
+  .usersGrid {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  }
+}
+
+@media (max-width: 768px) {
+  .usersGrid {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+  .usersWrapper {
+    padding: 0;
+  }
+  .wrapperTitle {
+    text-align: center;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1120px) {
+  .usersGrid {
+    gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+}
