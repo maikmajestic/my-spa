@@ -19,45 +19,45 @@ Validation ensures data integrity before submission.
 ## Installation
 
 Clone the repository:
-```bash
+
 git clone https://github.com/your/repository.git
 cd repository-name
 
 Install dependencies:
 npm run install
 
+## Running
 
 Run the development server:
 
-```bash
 npm run dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-
-Usage
+## Usage
 News Module:
 
-Upon loading, the application fetches the latest news articles.
-Navigate through pages using the pagination component at the bottom.
-Click on a news card to view the full article.
+- Upon loading, the application fetches the latest news articles.
+- Navigate through pages using the pagination component at the bottom.
+- Click on a news card to view the full article.
+
 Users Module:
 
-Access the Users section via the navigation bar.
-Add new users by clicking on the "Create User" button.
-Edit or delete existing users from the list.
-Validate user input fields to ensure data correctness.
-Technologies Used
+- Access the Users section via the navigation bar.
+- Add new users by clicking on the "Create User" button.
+- Edit or delete existing users from the list.
+- Validate user input fields to ensure data correctness.
+
+## Technologies Used
 Frontend:
 
-React.js with Next.js framework for server-side rendering.
-Redux for state management.
-React-Redux toolkit for Redux simplification.
-Tailwind CSS for styling and responsiveness.
+- React.js with Next.js framework for server-side rendering.
+- Redux for state management.
+- React-Redux toolkit for Redux simplification.
+- Sass for styling and responsiveness.
+
 Backend:
 
-Utilizes Next.js API routes for server-side logic.
-Integrates with external APIs for fetching news data.
-Manages local user data with Redux.
+- Utilizes Next.js API routes for server-side logic.
+- Integrates with external APIs for fetching news data.
+- Manages local user data with Redux.
